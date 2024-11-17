@@ -15,6 +15,6 @@ lines terminated by '\n'
 ignore 1 rows;
 
 select * from alumno_hobbie order by alumno_id;
-drop table alumno_hobbie;
+
 
 
