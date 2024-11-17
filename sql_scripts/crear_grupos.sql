@@ -1,13 +1,11 @@
-select distinct numero_grupo, nombre_grupo from datos_alumnos;
-
-create table grupos (
-	id_grupo int not null,
-    nombre_grupo varchar(255),
-    primary key (id_grupo) 
+CREATE TABLE grupos (
+	id_grupo INT NOT NULL,
+    nombre_grupo VARCHAR(255) NOT NULL,
+    PRIMARY KEY(id_grupo) 
 );
 
-insert into db_tp.grupos (id_grupo, nombre_grupo)
-select distinct numero_grupo, nombre_grupo from datos_alumnos;
+INSERT INTO db_tp.grupos (id_grupo, nombre_grupo)
+SELECT DISTINCT numero_grupo, nombre_grupo FROM datos_alumnos;
 
-select * from grupos;
+SELECT * FROM grupos;
 

@@ -12,7 +12,7 @@ create table datos_alumnos (
     nombre_grupo varchar(20),
     rol varchar(20),
     materias varchar(255),
-    trabaja bool,
+    trabaja bool ,
     experiencia_bdd_relacional bool,
     experiencia_bdd_no_relacional bool,
     ubicacion varchar(255), 
@@ -21,6 +21,19 @@ create table datos_alumnos (
     recomendacion_multimedia TEXT,    
     primary key (id_alumno) 
 );
+
+-- CONSTRAINS
+ALTER TABLE alumnos 
+ADD constraint dni_unico UNIQUE (dni);
+
+ALTER TABLE alumnos
+ADD CONSTRAINT dni_positivo CHECK (dni > 0);
+
+ALTER TABLE alumnos
+ALTER trabaja SET DEFAULT false,
+ALTER experiencia_bdd_relacional SET DEFAULT false,
+ALTER experiencia_bdd_no_relacional SET DEFAULT false,
+ALTER mascotas SET DEFAULT false; 
 
 load data infile 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/datos_alumnos.csv'
 into table db_tp.datos_alumnos
