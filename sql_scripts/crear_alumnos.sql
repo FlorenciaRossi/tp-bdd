@@ -14,6 +14,19 @@ create table alumnos(
     FOREIGN KEY (ubicacion_id) REFERENCES localidades(id_localidades)
 );
 
+-- CONSTRAINS
+ALTER TABLE alumnos 
+ADD constraint dni_unico UNIQUE (dni);
+
+ALTER TABLE alumnos
+ADD CONSTRAINT dni_positivo CHECK (dni > 0);
+
+ALTER TABLE alumnos
+ALTER trabaja SET DEFAULT false,
+ALTER experiencia_bdd_relacional SET DEFAULT false,
+ALTER experiencia_bdd_no_relacional SET DEFAULT false,
+ALTER mascotas SET DEFAULT false; 
+
 insert into db_tp.alumnos
 select a.id_alumno, 
 	a.dni,

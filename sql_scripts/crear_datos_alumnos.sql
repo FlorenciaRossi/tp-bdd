@@ -22,19 +22,6 @@ create table datos_alumnos (
     primary key (id_alumno) 
 );
 
--- CONSTRAINS
-ALTER TABLE alumnos 
-ADD constraint dni_unico UNIQUE (dni);
-
-ALTER TABLE alumnos
-ADD CONSTRAINT dni_positivo CHECK (dni > 0);
-
-ALTER TABLE alumnos
-ALTER trabaja SET DEFAULT false,
-ALTER experiencia_bdd_relacional SET DEFAULT false,
-ALTER experiencia_bdd_no_relacional SET DEFAULT false,
-ALTER mascotas SET DEFAULT false; 
-
 load data infile 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/datos_alumnos.csv'
 into table db_tp.datos_alumnos
 fields terminated by ','
