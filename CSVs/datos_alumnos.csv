@@ -43,4 +43,4 @@ DNI,Nombre,Apellido,Email,Numero_Grupo,Nombre_Grupo,Rol,Materias,Trabaja,Experie
 41548103,Delfina,Borrelli,dborrelli@estudiantes.unsam.edu.ar,9,DreamTeam,Organizador,"Algoritmos 3, Seminario",TRUE,FALSE,FALSE,,,TRUE,
 42101048,Pedro,Geraghty,pedrogeraghty82@gmail.com,9,DreamTeam,Representante,"Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,Villa Devoto,Skate,TRUE,"Heavy Metal, Rock Nacional, The Office, Better Call Saul"
 36791436,Diego,Lentz,digoolentz@gmail.com,9,DreamTeam,Supervisor,"Seminario, Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,Chilavert,"Fútbol, Videojuegos",TRUE,"Rock Nacional, Cuarteto, Electronica, House of dragon"
-44553142,Valentin,Pugliese,valentinpugliesew@outlook.com,9,DreamTeam,Team Leader,"Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,,"Videojuegos, Deportes",FALSE,
+44553142,Valentin,Pugliese,valentinpugliesew@outlook.com,9,DreamTeam,Team Leader,"Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,,"Videojuegos, Deportes",FALSE," "

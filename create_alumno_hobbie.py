@@ -2,7 +2,7 @@ import pandas as pd
 
 # Cargar los datos de los CSV
 df_alumnos = pd.read_csv('CSVs/tabla_datos_alumnos.csv')  
-df_hobbies = pd.read_csv('CSVs/datos_alumnes - hobbie.csv') 
+df_hobbies = pd.read_csv('CSVs/hobbies.csv') 
 
 # Diccionario que mapea cada hobbie a su id_hobbie
 hobbies_dict = pd.Series(df_hobbies.id_hobbie.values, index=df_hobbies.nombre).to_dict()
