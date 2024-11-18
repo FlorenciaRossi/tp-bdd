@@ -8,7 +8,8 @@ CREATE TABLE alumno_hobbie (
 
 -- se creo el csv con python teniendo de input las tablas datos_alumnos y hobbies
 -- (crear_alumno_hobbie.py en el repo)
-load data infile 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/alumno_hobbie.csv'
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/alumno_hobbie.csv'
 into table db_tp.alumno_hobbie
 fields terminated by ','
 lines terminated by '\n'
