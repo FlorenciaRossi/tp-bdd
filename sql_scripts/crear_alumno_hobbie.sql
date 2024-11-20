@@ -8,13 +8,13 @@ CREATE TABLE alumno_hobbie (
 
 -- se creo el csv con python teniendo de input las tablas datos_alumnos y hobbies
 -- (crear_alumno_hobbie.py en el repo)
-load data infile 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/alumno_hobbie.csv'
-into table db_tp.alumno_hobbie
-fields terminated by ','
-lines terminated by '\n'
-ignore 1 rows;
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/alumno_hobbie.csv'  
+INTO TABLE db_tp.alumno_hobbie  
+FIELDS TERMINATED BY ','  
+LINES TERMINATED BY '\n'  
+IGNORE 1 ROWS;  
 
-select * from alumno_hobbie order by alumno_id;
+SELECT * FROM alumno_hobbie ORDER BY alumno_id; 
 
 
 

@@ -24,4 +24,4 @@ df[['DNI', 'Numero_Grupo']] = df[['DNI', 'Numero_Grupo']].astype(int)
 df['Mascotas'] = df['Mascotas'].astype(bool)
 
 df.to_csv('CSVs\pre_datos_alumnos.csv', encoding='utf-8', index=False)
-# datos_alumnes.csv es el archivo procesado por el llm
+# pre_datos_alumnes.csv es el archivo procesado por el llm

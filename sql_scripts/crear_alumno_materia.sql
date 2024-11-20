@@ -1,6 +1,6 @@
 create table alumno_materia (
-	alumno_id int not null,
-    materia_id int not null,
+	alumno_id INT NOT NULL,
+    materia_id INT NOT NULL,
     primary key (alumno_id, materia_id),
     FOREIGN KEY (alumno_id) REFERENCES alumnos(id_alumno),
     FOREIGN KEY (materia_id) REFERENCES materias(id_materia)
