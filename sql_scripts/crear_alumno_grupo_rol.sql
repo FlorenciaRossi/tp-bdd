@@ -1,10 +1,11 @@
 create table alumno_grupo_rol(
-	alumno_id int not null,
-    grupo_id int not null, 
-    rol_id int not null,
+	alumno_id INT NOT NULL UNIQUE,
+    grupo_id INT NOT NULL , 
+    rol_id INT NOT NULL ,
     primary key (alumno_id),
-    foreign key (grupo_id) references grupos(id_grupo),
-    foreign key (rol_id) references roles(id_rol)
+    FOREIGN KEY (alumno_id) REFERENCES alumnos(id_alumno),
+    FOREIGN KEY (grupo_id) REFERENCES grupos(id_grupo),
+    FOREIGN KEY (rol_id) REFERENCES roles(id_rol)
 );
 
 insert into alumno_grupo_rol

@@ -1,5 +1,5 @@
 CREATE TABLE db_tp.roles (
-	id_rol INT NOT NULL AUTO_INCREMENT,
+	id_rol INT NOT NULL AUTO_INCREMENT UNIQUE,
     nombre_rol VARCHAR(50) NOT NULL,
     PRIMARY KEY (id_rol) 
 );
@@ -12,4 +12,4 @@ VALUES
 ('LIDER TECNICO'),
 ('SUPERVISOR');
 
-SELECT * FROM roles
+SELECT * FROM roles;

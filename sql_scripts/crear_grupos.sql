@@ -1,5 +1,5 @@
 CREATE TABLE grupos (
-	id_grupo INT NOT NULL,
+	id_grupo INT NOT NULL UNIQUE,
     nombre_grupo VARCHAR(255) NOT NULL,
     PRIMARY KEY(id_grupo) 
 );

@@ -11,15 +11,15 @@ create table alumnos(
     mascotas bool,
     recomendacion_multimedia TEXT,    
     primary key (id_alumno),
-    FOREIGN KEY (ubicacion_id) REFERENCES localidades(id_localidades)
+    FOREIGN KEY (ubicacion_id) REFERENCES localidades(id_localidad)
 );
 
 -- CONSTRAINS
 ALTER TABLE alumnos 
-ADD constraint dni_unico UNIQUE (dni);
+ADD constraint dni_unico UNIQUE (id_alumno);
 
 ALTER TABLE alumnos
-ADD CONSTRAINT dni_positivo CHECK (dni > 0);
+ADD CONSTRAINT dni_positivo CHECK (dni > 0 or dni = null) ;
 
 ALTER TABLE alumnos
 ALTER trabaja SET DEFAULT false,
@@ -36,12 +36,10 @@ select a.id_alumno,
     a.trabaja, 
     a.experiencia_bdd_relacional, 
     a.experiencia_bdd_no_relacional,
-	loc.id_localidades, 
+	loc.id_localidad, 
     a.mascotas, 
     a.recomendacion_multimedia
 from db_tp.datos_alumnos as a 
-join db_tp.localidades as loc on a.ubicacion = loc.localidad;
+left join db_tp.localidades as loc on a.ubicacion = loc.localidad;
 
 select * from alumnos;
-
-

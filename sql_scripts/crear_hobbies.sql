@@ -3,12 +3,12 @@
 use db_tp;
 
 create table hobbies (
-	id_hobbie INT NOT NULL,
+	id_hobbie INT NOT NULL UNIQUE,
     hobbie varchar(255) not null,
-    primary key (id_hobbies) 
+    primary key (id_hobbie) 
 );
 
-load data infile 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/hobbies.csv'
+load data infile 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/hobbies.csv'
 into table db_tp.hobbies
 fields terminated by ','
 lines terminated by '\n'

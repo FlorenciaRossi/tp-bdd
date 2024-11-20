@@ -3,7 +3,7 @@
 use db_tp;
 
 create table datos_alumnos (
-	id_alumno INT NOT NULL auto_increment,
+	id_alumno INT NOT NULL auto_increment unique ,
     dni int,
     nombre varchar(255),
     apellido varchar(255),
@@ -22,7 +22,7 @@ create table datos_alumnos (
     primary key (id_alumno) 
 );
 
-load data infile 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/datos_alumnos.csv'
+load data infile 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/datos_alumnos.csv'
 into table db_tp.datos_alumnos
 fields terminated by ','
 ENCLOSED BY '"'

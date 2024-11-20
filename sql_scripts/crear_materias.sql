@@ -11,7 +11,7 @@ create table materias (
     primary key (id_materia) 
 );
 
-load data infile 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/materias.csv'
+load data infile 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/materias.csv'
 into table db_tp.materias
 fields terminated by ','
 lines terminated by '\n'

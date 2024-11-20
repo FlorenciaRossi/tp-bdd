@@ -1,8 +1,11 @@
 create table alumno_materia (
-	id_alumno int not null,
-    id_materia int not null,
-    primary key (id_alumno, id_materia)
+	alumno_id int not null,
+    materia_id int not null,
+    primary key (alumno_id, materia_id),
+    FOREIGN KEY (alumno_id) REFERENCES alumnos(id_alumno),
+    FOREIGN KEY (materia_id) REFERENCES materias(id_materia)
 );
+
 -- se podria hacer un store procedure para esto pero es complicado..
 INSERT INTO alumno_materia
 SELECT a.id_alumno, 1 AS materia_id
