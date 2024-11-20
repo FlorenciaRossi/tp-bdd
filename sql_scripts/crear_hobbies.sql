@@ -6,7 +6,7 @@ CREATE TABLE hobbies (
     PRIMARY KEY (id_hobbie)  
 );  
 
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/hobbies.csv'  
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/hobbies.csv'  
 INTO TABLE db_tp.hobbies  
 FIELDS TERMINATED BY ','  
 LINES TERMINATED BY '\n'  

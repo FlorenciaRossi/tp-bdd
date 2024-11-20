@@ -35,6 +35,5 @@ SET
     mascotas = CASE WHEN @mascotas = 'TRUE' THEN 1 ELSE 0 END  
 ;  
 
-
 SELECT * FROM db_tp.datos_alumnos;  
 

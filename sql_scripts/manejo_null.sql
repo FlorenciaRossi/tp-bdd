@@ -23,11 +23,3 @@ WHERE ubicacion_id = 0;
 UPDATE alumnos
 SET recomendacion_multimedia = NULL
 WHERE recomendacion_multimedia = "";
-
-select * from alumnos;
-
-
-
-
-
-

@@ -9,7 +9,7 @@ hobbies_dict = pd.Series(df_hobbies.id_hobbie.values, index=df_hobbies.nombre).t
 
 # Lista que va a tener las relaciones alumno-hobbie
 alumno_hobbie_relations = []
-df_alumnos['hobbies'].fillna(" ", inplace=True) #sino se rompe
+df_alumnos['hobbies'].fillna(" ", inplace=True)
 
 # Recorremos cada fila de datos_alumnos
 for _, row in df_alumnos.iterrows():

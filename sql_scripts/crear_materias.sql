@@ -10,7 +10,7 @@ CREATE TABLE materias (
     PRIMARY KEY (id_materia)  
 );  
 
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/materias.csv'  
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/materias.csv'  
 INTO TABLE db_tp.materias  
 FIELDS TERMINATED BY ','  
 LINES TERMINATED BY '\n'  

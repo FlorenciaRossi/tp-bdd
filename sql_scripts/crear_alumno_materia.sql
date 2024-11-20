@@ -6,7 +6,7 @@ create table alumno_materia (
     FOREIGN KEY (materia_id) REFERENCES materias(id_materia)
 );
 
--- se podria hacer un store procedure para esto pero es complicado..
+
 INSERT INTO alumno_materia
 SELECT a.id_alumno, 1 AS materia_id
 FROM datos_alumnos AS a
@@ -28,3 +28,4 @@ FROM datos_alumnos AS a
 WHERE a.materias LIKE '%caso';
 
 SELECT * FROM alumno_materia;
+
