@@ -21,5 +21,9 @@ SET ubicacion_id = NULL
 WHERE ubicacion_id = 0;
 
 UPDATE alumnos
+SET trabajo = NULL 
+WHERE trabajo = "";
+
+UPDATE alumnos
 SET recomendacion_multimedia = NULL
 WHERE recomendacion_multimedia = "";
