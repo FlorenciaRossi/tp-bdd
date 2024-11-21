@@ -13,7 +13,7 @@ INTO TABLE db_tp.alumno_hobbie
 FIELDS TERMINATED BY ','  
 LINES TERMINATED BY '\n'  
 IGNORE 1 ROWS;  
-select * from alumnos;
+
 SELECT * FROM alumno_hobbie ORDER BY alumno_id; 
 
 

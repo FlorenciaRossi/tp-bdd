@@ -1,46 +1,46 @@
-DNI,Nombre,Apellido,Email,Numero_Grupo,Nombre_Grupo,Rol,Materias,Trabaja,Experiencia_BDD_Relacional,Experiencia_BDD_No_Relacional,Ubicacion,Hobbies,Mascotas,Recomendación_Multimedia
-37688075,Jotallan,Calvetti,gaabicarp@gmail.com,1,DataMasters,Organizador,Bases de datos,TRUE,TRUE,TRUE,San Martin,"Música, Viajes, Videojuegos",FALSE,Rock Nacional
-41472398,Mariel Nadine,Kovinchich,marielkov1998@gmail.com,1,DataMasters,Representante,"Bases de datos, Algoritmos 3",TRUE,TRUE,FALSE,J.L Suarez,"Lectura, Anime",TRUE,Rock Nacional
-38532025,gaston ezequiel,Abelardo,gabelardo@estudiantes.unsam.edu.ar,1,DataMasters,Team Leader,"Bases de datos, Algoritmos 3",TRUE,FALSE,FALSE,San Martin,Tecnología,TRUE,The Beatles
-40663606,Rodrigo Nicolas,Pavon Gomez,rodrigopavongomez@gmail.com,1,DataMasters,Lider Tecnico,"Bases de datos, Seminario",TRUE,FALSE,FALSE,,Deportes,TRUE,Ritmos tropicales
-38601662,,Dragonetti,mdragonetti@estudiantes.unsam.edu.ar,1,DataMasters,Supervisor,"Bases de datos, Seminario",TRUE,FALSE,FALSE,San Martin,Lectura,TRUE,Todo un poco
-44547586,Juan Ignacio,Caceffo,jicaceffo@estudiantes.unsam.edu.ar,2,nullpointer,Lider Tecnico,Bases de datos,TRUE,TRUE,TRUE,General Pacheco,"Música, Deportes",TRUE,Wos
-37984582,Julian,Gibelli,juligibelli@gmail.com,2,nullpointer,Organizador,"Bases de datos, Seminario",TRUE,TRUE,FALSE,Belgrano,"Lectura, Dibujo, Deportes",FALSE,"Arctic Monkeys, Radiohead"
-35972409,Emiliano Javier,Nuñez,ejnunez@estudiantes.unsam.edu.ar,2,nullpointer,Representante,Seminario,TRUE,TRUE,FALSE,,,FALSE,Foo Fighters
-43036494,Alejo,Menini,amenini@estudiantes.unsam.edu.ar,2,nullpointer,Supervisor,Bases de datos,TRUE,TRUE,FALSE,San Andres,"Natación, Cine",FALSE,"The Boys, The Bear"
-35726203,Facundo,Barneche,fh.barneche@gmail.com,2,nullpointer,Team Leader,"Bases de datos, Seminario",TRUE,FALSE,FALSE,Santos Lugares,"Fútbol, Música",TRUE,Cuarteto
-43245286,Valentino,Bortolussi,valentino.bortolussi.lembo@gmail.com,3,Enrutados,Supervisor,"Algoritmos 3, Bases de datos, Seminario",FALSE,FALSE,FALSE,Escobar,Deportes,TRUE,Queen
-42647332,Santiago,Bouza,sbouza@estudiantes.unsam.edu.ar,3,Enrutados,Lider Tecnico,"Seminario, Algoritmos 3, Bases de datos",FALSE,FALSE,FALSE,Escobar,Lectura,TRUE,
-38703368,Cristian,Lomas,cristian.lomas.a@gmail.com,3,Enrutados,Representante,"Seminario, Algoritmos 3, Bases de datos",TRUE,TRUE,FALSE,,"Deportes, Ajedrez, Lectura, Jardinería",TRUE,
-42472348,Tomás,Neiro,tomasneiro@hotmail.com,3,Enrutados,Organizador,"Algoritmos 3, Seminario, Bases de datos",FALSE,FALSE,FALSE,Saavedra,"Lectura, Deportes, Tecnología",TRUE,Top 50 spoty
-37626822,Cristian,Villafañez Sobrecasa,ccvillafanezsobrecasa@estudiantes.unsam.edu.ar,3,Enrutados,Team Leader,Bases de datos,TRUE,TRUE,FALSE,"Boedo, CABA",Cine,FALSE,"Pop, KPop, Rock de los 80´s"
-41067566,Maximiliano,Borrelli,maxifborrelli@gmail.com,4,Mandarina,Lider Tecnico,"Algoritmos 3, Bases de datos",TRUE,TRUE,TRUE,Villa Ballester,Fútbol,TRUE,
-44792981,Theo,Narmontas Bocci,narmontastheo@gmail.com,4,Mandarina,Organizador,"Algoritmos 3, Bases de datos, Seminario",FALSE,FALSE,FALSE,,"Videojuegos, Anime, Manga, Deportes",FALSE,"Elden Ring, Dragon Ball, Jojo´s"
-95822280,Paola,Toledo Contreras,ptoledocontreras@estudiantes.unsam.edu.ar,4,Mandarina,Representante,Bases de datos,TRUE,TRUE,FALSE,"Boedo, CABA",Cine,FALSE,"Pop, KPop, Rock de los 80´s"
-35993466,Matias Hernan,Diaz,diaz.matiash@gmail.com,4,Mandarina,Supervisor,"Algoritmos 3, Bases de datos, Seminario",TRUE,FALSE,FALSE,Santos Lugares,,TRUE,Rock Nacional
-42321002,Pagano,Annabella,apagano@estudiantes.unsam.edu.ar,4,Mandarina,Team Leader,"Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,"Villa Gesell, San martin","Jardinería, Redes sociales",TRUE,Los Piojos
-40007189,Gabriel,Tarquini,gabi.tarquini@gmail.com,5,MCTeam,Lider Tecnico,"Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,"Villa Bosch, Tres de febrero",Fútbol,TRUE,"Rock Nacional, NAFTA, El Kuelgue, Conociendo Rusia"
-39800551,Valentin Pedro ,Fucceneco,vfuccenecco@estudiantes.unsam.edu.ar,5,MCTeam,Organizador,Algoritmos 3,TRUE,FALSE,FALSE,San martin,,TRUE,"Rock Nacional, The Boys"
-41106994,Agustina,Rey Brienza,a.reybrienza@gmail.com,5,MCTeam,Representante,"Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,El Palomar,"Deportes, Música, Canto",TRUE,"Rock Nacional, El Oso"
-43781315,Emiliano,Decuzzi,eadecuzzi@estudiantes.unsam.edu.ar,5,MCTeam,Supervisor,"Algoritmos 3, Bases de datos, Seminario",TRUE,TRUE,FALSE,Ciudad Jardin,Deportes,TRUE,The Hives
-44160355,Tatiana,Sabbatini,tsabbatini@estudiantes.unsam.edu.ar,5,MCTeam,Team Leader,"Algoritmos 3, Bases de datos, Seminario",TRUE,FALSE,FALSE,"Villa Urquiza, CABA","Voley, Lectura",FALSE,
-40395042,Mariano,Ruina,mjruina@estudiantes.unsam.edu.ar,6,okupas,Lider Tecnico,"Seminario, Algoritmos 3, Bases de datos",FALSE,TRUE,FALSE,,Música,FALSE,
-41684308,Lautaro,Cuellar,lautacuellar69@hotmail.com,6,okupas,Organizador,"Bases de datos, Algoritmos 3, Seminario",TRUE,FALSE,FALSE,San Martin,Fútbol,TRUE,Rock Nacional
-43017353,Federico,Virgilio,fedevirgili00@gmail.com,6,okupas,Representante,"Algoritmos 3, Bases de datos, Seminario",TRUE,FALSE,FALSE,San Martin,,FALSE,
-42291365,Alan,Exarchos,alanexarchos@gmail.com,6,okupas,Supervisor,"Seminario, Bases de datos",TRUE,FALSE,FALSE,Villa bosch,"Cine, Series, Videojuegos",TRUE,"Metal, Electronica, Trap Argentino"
-45105469,Florencia,Rossi,flrossi@estudiantes.unsam.edu.ar,6,okupas,Team Leader,"Seminario, Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,CABA,,TRUE,Miranda!
-0,Ernesto,Davogustto,ernesto.davogustto@gmail.com,7,undefined,Lider Tecnico,"Algoritmos 3, Bases de datos, Seminario",TRUE,TRUE,FALSE,Palermo,"Fotografía, Deportes, Música",TRUE,
-45174406,Lucas Gonzalo,Rodriguez,lgrodriguez@estudiantes.unsam.edu.ar,7,undefined,Representante,"Algoritmos 3, Bases de datos, Seminario",FALSE,FALSE,FALSE,Villa Ballester,Cine,TRUE,Rock Nacional
-39916775,Alan,Guarino,aguarino@estudiantes.unsam.edu.ar,7,undefined,Supervisor,"Algoritmos 3, Seminario, Bases de datos",TRUE,FALSE,FALSE,Villa Ballester,Deportes electrónicos,TRUE,Rock Internacional
-35766192,Tamara Eleonor,Mecozzi,mecozzite@gmail.com,7,undefined,Team Leader,"Seminario, Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,San Martin,Viajes,TRUE,Todo un poco
-0,Agustin,Hoj,ahoj@estudiantes.unsam.edu.ar,7,undefined,Organizador,"Algoritmos 3, Bases de datos",TRUE,TRUE,FALSE,Villa Ballester,"Videojuegos, Deportes",TRUE,"House of the dragon, Rock, Electronica, Rap"
-35093145,Matias,Caballero,msebacaballero@gmail.com,8,DropTable,Lider Tecnico,Bases de datos,TRUE,FALSE,FALSE,Laferrere,Música,TRUE,Pelea de Gallos
-36594617,David,Pazos,davidgpazos@gmail.com,8,DropTable,Organizador,"Bases de datos, CASO",TRUE,FALSE,FALSE,Belgrano,"Ajedrez, Fútbol",FALSE,"Rock Nacional, Pop"
-43441575,Fabrizio,Signorello,fsignorello@estudiantes.undam.edu.ar,8,DropTable,Representante,"Algoritmos 3, Bases de datos",TRUE,TRUE,FALSE,Villa Ballester,Deportes,TRUE,"Rock Nacional, Electronica"
-42997600,Andrés Elias,Simonini,aesimonini@estudiantes.unsam.edu.ar,8,DropTable,Supervisor,"Algoritmos 3, Bases de datos",FALSE,FALSE,FALSE,San Martin,"Dibujo, Videojuegos",TRUE,"Low Roar, Arcane"
-35205248,Emiliano,Ferretti,emieferretti@gmail.com,8,DropTable,Team Leader,"Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,Santos Lugares,"Correr, Música",TRUE,
-41555134,,Perez,amperez@estudiantes.unsam.edu.ar,9,DreamTeam,Lider Tecnico,"Algoritmos 3, Bases de datos, Seminario",TRUE,FALSE,FALSE,Villa Ballester,Lectura,TRUE,"Dark, Black Mirror"
-41548103,Delfina,Borrelli,dborrelli@estudiantes.unsam.edu.ar,9,DreamTeam,Organizador,"Algoritmos 3, Seminario",TRUE,FALSE,FALSE,,,TRUE,
-42101048,Pedro,Geraghty,pedrogeraghty82@gmail.com,9,DreamTeam,Representante,"Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,Villa Devoto,Skate,TRUE,"Heavy Metal, Rock Nacional, The Office, Better Call Saul"
-36791436,Diego,Lentz,digoolentz@gmail.com,9,DreamTeam,Supervisor,"Seminario, Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,Chilavert,"Fútbol, Videojuegos",TRUE,"Rock Nacional, Cuarteto, Electronica, House of dragon"
-44553142,Valentin,Pugliese,valentinpugliesew@outlook.com,9,DreamTeam,Team Leader,"Algoritmos 3, Bases de datos",TRUE,FALSE,FALSE,,"Videojuegos, Deportes",FALSE," "
+DNI,Nombre,Apellido,Email,Numero_Grupo,Nombre_Grupo,Rol,Materias,Trabajo,Experiencia_BDD_Relacional,Experiencia_BDD_No_Relacional,Ubicacion,Hobbies,Mascotas,Recomendación_Multimedia
+37688075,Jotallan,Calvetti,gaabicarp@gmail.com,1,DataMasters,Organizador,Bases de datos,Front-end,TRUE,TRUE,San Martin,"Música, Viajes, Videojuegos",FALSE,Rock Nacional
+41472398,Mariel Nadine,Kovinchich,marielkov1998@gmail.com,1,DataMasters,Representante,"Bases de datos, Algoritmos 3",Independiente,TRUE,FALSE,J.L Suarez,"Lectura, Anime, Jardinería",TRUE,Rock Nacional
+38532025,gaston ezequiel,Abelardo,gabelardo@estudiantes.unsam.edu.ar,1,DataMasters,Team Leader,"Bases de datos, Algoritmos 3",Oficina de costos,FALSE,FALSE,San Martín,"Electrónica, Robótica",TRUE,The Beatles
+40663606,Rodrigo Nicolas,Pavon Gomez,rodrigopavongomez@gmail.com,1,DataMasters,Lider Tecnico,"Bases de datos, Seminario",Desarrolador front-end freelance,FALSE,FALSE,,Voley,TRUE,Ritmos tropicales
+38601662,,Dragonetti,mdragonetti@estudiantes.unsam.edu.ar,1,DataMasters,Supervisor,"Bases de datos, Seminario",Desarrolladora frontend,FALSE,FALSE,San Martin,Lectura,TRUE,"Pop, KPop, Rock de los 80´s"
+44547586,Juan Ignacio,Caceffo,jicaceffo@estudiantes.unsam.edu.ar,2,nullpointer,Lider Tecnico,Bases de datos,Ingeniero de datos,TRUE,TRUE,General Pacheco,"Canto, Correr, Gimnasio",TRUE,Wos
+37984582,Julian,Gibelli,juligibelli@gmail.com,2,nullpointer,Organizador,"Bases de datos, Seminario",Desarrollador de software,TRUE,TRUE,Belgrano,"Lectura, Dibujo, Correr",FALSE,"Arctic Monkeys, Radiohead"
+35972409,Emiliano Javier,Nuñez,ejnunez@estudiantes.unsam.edu.ar,2,nullpointer,Representante,Seminario,Empresa de seguros,TRUE,FALSE,,,FALSE,Foo Fighters
+43036494,Alejo,Menini,amenini@estudiantes.unsam.edu.ar,2,nullpointer,Supervisor,Bases de datos,Ingeniero de datos,TRUE,FALSE,San Andres,"Natación, Cine",FALSE,"The Boys, The Bear"
+35726203,Facundo,Barneche,fh.barneche@gmail.com,2,nullpointer,Team Leader,"Bases de datos, Seminario",Desarrollador,TRUE,TRUE,Santos Lugares,"Fútbol, Música",TRUE,Cuarteto
+43245286,Valentino,Bortolussi,valentino.bortolussi.lembo@gmail.com,3,Enrutados,Supervisor,"Bases de datos, Algoritmos 3, Seminario",,FALSE,FALSE,Escobar,Entrenamiento,TRUE,Queen
+42647332,Santiago,Bouza,sbouza@estudiantes.unsam.edu.ar,3,Enrutados,Lider Tecnico,"Bases de datos, Algoritmos 3, Seminario",,FALSE,FALSE,Escobar,Lectura,TRUE,
+38703368,Cristian,Lomas,cristian.lomas.a@gmail.com,3,Enrutados,Representante,"Bases de datos, Algoritmos 3, Seminario",Desarrollador,TRUE,TRUE,,"Deportes, Ajedrez, Lectura, Jardinería",TRUE,
+42472348,Tomás,Neiro,tomasneiro@hotmail.com,3,Enrutados,Organizador,"Bases de datos, Algoritmos 3, Seminario",Mantenimiento de computadoras,TRUE,FALSE,Saavedra,"Deporte, Lectura",TRUE,Top 50 Spoty
+37626822,Cristian,Villafañez Sobrecasa,ccvillafanezsobrecasa@estudiantes.unsam.edu.ar,3,Enrutados,Team Leader,Bases de datos,Desarrolladora en .NET para Accenture,TRUE,FALSE,"Boedo, CABA","Cine, Series",FALSE,"Pop, KPop, Rock de los 80´s"
+41067566,Maximiliano,Borrelli,maxifborrelli@gmail.com,4,Mandarina,Lider Tecnico,"Bases de datos, Algoritmos 3",Desarrollador backend java/golang,TRUE,TRUE,Ballester,Fútbol,TRUE,
+44792981,Theo,Narmontas Bocci,narmontastheo@gmail.com,4,Mandarina,Organizador,"Bases de datos, Algoritmos 3, Seminario",,FALSE,FALSE,,"Videojuegos, Anime, Manga, Entrenamiento",FALSE,"Elden Ring, Dragon Ball, Jojo´s"
+95822280,Paola,Toledo Contreras,ptoledocontreras@estudiantes.unsam.edu.ar,4,Mandarina,Representante,Bases de datos,Desarrolladora en .NET para Accenture,TRUE,FALSE,"Boedo, CABA","Cine, Series",FALSE,"Pop, KPop, Rock de los 80´s"
+35993466,Matias Hernan,Diaz,diaz.matiash@gmail.com,4,Mandarina,Supervisor,"Bases de datos, Algoritmos 3, Seminario",Desarrollador,TRUE,FALSE,Santos Lugares,,TRUE,Rock Nacional
+42321002,Pagano,Annabella,apagano@estudiantes.unsam.edu.ar,4,Mandarina,Team Leader,"Bases de datos, CASO",Ciberseguridad,FALSE,FALSE,"Villa Gesell, San martin","Jardinería",TRUE,Los Piojos
+40007189,Gabriel,Tarquini,gabi.tarquini@gmail.com,5,MCTeam,Lider Tecnico,"Bases de datos, Algoritmos 3",Empleado de comercio,FALSE,FALSE,"Villa Bosch, Tres de febrero","Fútbol",TRUE,"Rock Nacional, NAFTA, El Kuelgue, Conociendo Rusia"
+39800551,Valentin Pedro ,Fucceneco,vfuccenecco@estudiantes.unsam.edu.ar,5,MCTeam,Organizador,"Bases de datos, Algoritmos 3",Administrativo,FALSE,FALSE,San martin,,TRUE,"Rock Nacional, The Boys"
+41106994,Agustina,Rey Brienza,a.reybrienza@gmail.com,5,MCTeam,Representante,"Bases de datos, Algoritmos 3",Desarrolladora RPA,FALSE,FALSE,El Palomar,"Deportes, Música",TRUE,"Rock Nacional, El Oso"
+43781315,Emiliano,Decuzzi,eadecuzzi@estudiantes.unsam.edu.ar,5,MCTeam,Supervisor,"Bases de datos, Algoritmos 3, Seminario",Area de informatica de un hospital,TRUE,FALSE,Ciudad Jardin,"Gimnasio, Bicicleta, Juegos",TRUE,The Hives
+44160355,Tatiana,Sabbatini,tsabbatini@estudiantes.unsam.edu.ar,5,MCTeam,Team Leader,"Bases de datos, Algoritmos 3, Seminario",Soporte,FALSE,FALSE,"Villa Urquiza, CABA","Voley, Lectura",FALSE,
+40395042,Mariano,Ruina,mjruina@estudiantes.unsam.edu.ar,6,okupas,Lider Tecnico,"Bases de datos, Seminario, Algoritmos 3",,TRUE,FALSE,,Música,FALSE,
+41684308,Lautaro,Cuellar,lautacuellar69@hotmail.com,6,okupas,Organizador,"Bases de datos, Algoritmos 3, Seminario",Repartidor de agua,FALSE,FALSE,Loma hermosa San Martin,Fútbol,TRUE,Rock Nacional
+43017353,Federico,Virgilio,fedevirgili00@gmail.com,6,okupas,Representante,"Bases de datos, Algoritmos 3, Seminario",Pasantia con IA,FALSE,FALSE,San Martin,,FALSE,
+42291365,Alan,Exarchos,alanexarchos@gmail.com,6,okupas,Supervisor,"Bases de datos, Seminario",Ayudante en backend en java con sql server,TRUE,FALSE,Villa bosch,"Cine, Series, Juegos",TRUE,"Metal, Electronica, Trap Argentino"
+45105469,Florencia,Rossi,flrossi@estudiantes.unsam.edu.ar,6,okupas,Team Leader,"Bases de datos, Algoritmos 3, Seminario",IA,FALSE,FALSE,CABA,,TRUE,"Miranda!, The Office"
+0,Ernesto,Davogustto,ernesto.davogustto@gmail.com,7,undefined,Lider Tecnico,"Bases de datos, Algoritmos 3, Seminario",Ingeniero de Datos,TRUE,FALSE,Palermo,"Fotografía, Entrenamiento, Música",TRUE,
+45174406,Lucas Gonzalo,Rodriguez,lgrodriguez@estudiantes.unsam.edu.ar,7,undefined,Representante,"Bases de datos, Algoritmos 3, Seminario",,FALSE,FALSE,Villa Ballester,"Cine, Series",TRUE,Rock Nacional
+39916775,Alan,Guarino,aguarino@estudiantes.unsam.edu.ar,7,undefined,Supervisor,"Bases de datos, Algoritmos 3, Seminario",Comercio electronico,TRUE,FALSE,Ballester,Deportes electrónicos,TRUE,Rock Internacional
+35766192,Tamara Eleonor,Mecozzi,mecozzite@gmail.com,7,undefined,Team Leader,"Bases de datos, Algoritmos 3, Seminario",,FALSE,FALSE,San Martin,Viajes,TRUE,
+0,Agustin,Hoj,ahoj@estudiantes.unsam.edu.ar,7,undefined,Organizador,"Bases de datos, Algoritmos 3",Programador en una compañia financiera,TRUE,FALSE,Villa Ballester,"Juegos, entrenamiento",TRUE,"House of the dragon, Rock, Electronica, Rap"
+35093145,Matias,Caballero,msebacaballero@gmail.com,8,DropTable,Lider Tecnico,Bases de datos,Mecánico automotor,TRUE,FALSE,Laferrere,Guitarra,TRUE,Pelea de Gallos
+36594617,David,Pazos,davidgpazos@gmail.com,8,DropTable,Organizador,"Bases de datos, CASO",Seguridad informática en Despegar,FALSE,FALSE,Belgrano,"Ajedrez, Fútbol",FALSE,
+43441575,Fabrizio,Signorello,fsignorello@estudiantes.undam.edu.ar,8,DropTable,Representante,"Bases de datos, Algoritmos 3",Consultora con java,TRUE,FALSE,Ballester,"Deportes, Bicicleta",TRUE,"Rock Nacional, Electronica"
+42997600,Andrés Elias,Simonini,aesimonini@estudiantes.unsam.edu.ar,8,DropTable,Supervisor,"Bases de datos, Algoritmos 3",,FALSE,FALSE,"Loma Hermosa, San Martin","Dibujo, Videojuegos",TRUE,"Low Roar, Arcane"
+35205248,Emiliano,Ferretti,emieferretti@gmail.com,8,DropTable,Team Leader,"Bases de datos, Algoritmos 3",Vendedor en una fabrica de cauchos,FALSE,FALSE,Santos Lugares,"Correr, Música",TRUE,
+41555134,,Perez,amperez@estudiantes.unsam.edu.ar,9,DreamTeam,Lider Tecnico,"Bases de datos, Algoritmos 3, Seminario",Docente JTP en el CPU,FALSE,FALSE,Ballester,Lectura,TRUE,"Dark, Black Mirror"
+41548103,Delfina,Borrelli,dborrelli@estudiantes.unsam.edu.ar,9,Dreamteam,Organizador,"Bases de datos, Algoritmos 3",Comercio,FALSE,FALSE,,,TRUE,
+42101048,Pedro,Geraghty,pedrogeraghty82@gmail.com,9,DreamTeam,Representante,"Bases de datos, Algoritmos 3",Merchandising,FALSE,FALSE,Villa Devoto,Skate,TRUE,"Heavy Metal, Rock Nacional, The Office, Better Call Saul"
+36791436,Diego,Lentz,digoolentz@gmail.com,9,DreamTeam,Supervisor,"Bases de datos, Algoritmos 3, Seminario",Administrativo,TRUE,FALSE,Chilavert,"Fútbol, Juegos",TRUE,"Rock Nacional, Cuarteto, Electronica, House of Dragon"
+44553142,Valentin,Pugliese,valentinpugliesew@outlook.com,9,DreamTeam,Team Leader,"Bases de datos, Algoritmos 3",Soporte IT,TRUE,FALSE,,"Videojuegos, Entrenamiento",FALSE,""

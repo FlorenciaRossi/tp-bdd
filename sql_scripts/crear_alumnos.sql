@@ -4,7 +4,7 @@ CREATE TABLE alumnos (
     nombre VARCHAR(255),  
     apellido VARCHAR(255),  
     email VARCHAR(255),  
-    trabaja BOOL,  
+    trabajo VARCHAR(255),  
     experiencia_bdd_relacional BOOL,  
     experiencia_bdd_no_relacional BOOL,  
     ubicacion_id INT,  
@@ -22,7 +22,7 @@ ALTER TABLE alumnos
 ADD CONSTRAINT dni_positivo CHECK (dni > 0 OR dni = NULL);   
 
 ALTER TABLE alumnos  
-ALTER trabaja SET DEFAULT FALSE,  
+ALTER trabajo SET DEFAULT FALSE,  
 ALTER experiencia_bdd_relacional SET DEFAULT FALSE,  
 ALTER experiencia_bdd_no_relacional SET DEFAULT FALSE,  
 ALTER mascotas SET DEFAULT FALSE; 
@@ -33,7 +33,7 @@ SELECT a.id_alumno,
     a.nombre,  
     a.apellido,  
     a.email,  
-    a.trabaja,  
+    a.trabajo,  
     a.experiencia_bdd_relacional,  
     a.experiencia_bdd_no_relacional,  
     loc.id_localidad,  

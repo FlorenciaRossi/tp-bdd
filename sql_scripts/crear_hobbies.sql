@@ -13,4 +13,3 @@ LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;  
 
 SELECT * FROM db_tp.hobbies;  
-

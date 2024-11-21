@@ -10,7 +10,7 @@ CREATE TABLE datos_alumnos (
     nombre_grupo VARCHAR(20),
     rol VARCHAR(20),
     materias VARCHAR(255),
-    trabaja BOOL,
+    trabajo VARCHAR(255),
     experiencia_bdd_relacional BOOL,
     experiencia_bdd_no_relacional BOOL,
     ubicacion VARCHAR(255), 
@@ -26,10 +26,9 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'  
 LINES TERMINATED BY '\r\n'  
 IGNORE 1 ROWS  
-(dni, nombre, apellido, email, numero_grupo, nombre_grupo, rol, materias, @trabaja, @experiencia_bdd_relacional,
+(dni, nombre, apellido, email, numero_grupo, nombre_grupo, rol, materias, trabajo, @experiencia_bdd_relacional,
  @experiencia_bdd_no_relacional, ubicacion, hobbies, @mascotas, recomendacion_multimedia)  
 SET  
-    trabaja = CASE WHEN @trabaja = 'TRUE' THEN 1 ELSE 0 END,  
     experiencia_bdd_relacional = CASE WHEN @experiencia_bdd_relacional = 'TRUE' THEN 1 ELSE 0 END,  
     experiencia_bdd_no_relacional = CASE WHEN @experiencia_bdd_no_relacional = 'TRUE' THEN 1 ELSE 0 END,  
     mascotas = CASE WHEN @mascotas = 'TRUE' THEN 1 ELSE 0 END  
