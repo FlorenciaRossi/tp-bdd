@@ -1,1 +1,3 @@
-create schema db_tp 
+CREATE SCHEMA db_tp;
+
+

@@ -5,11 +5,6 @@ CREATE TABLE db_tp.roles (
 );
 
 INSERT INTO roles (nombre_rol)
-VALUES
-('ORGANIZADOR'),
-('REPRESENTANTE'),
-('TEAM LEADER'),
-('LIDER TECNICO'),
-('SUPERVISOR');
+SELECT DISTINCT rol FROM datos_alumnos;
 
 SELECT * FROM roles;

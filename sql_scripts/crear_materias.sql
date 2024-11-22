@@ -2,19 +2,18 @@
 -- https://www.mysqltutorial.org/mysql-basics/import-csv-file-mysql-table/
 SELECT @@secure_file_priv;
 
--- ejecutar por separado!!
-use db_tp;
+USE db_tp;
 
-create table materias (
-	id_materia INT NOT NULL,
-    materia varchar(255) not null,
-    primary key (id_materia) 
-);
+CREATE TABLE materias (  
+    id_materia INT NOT NULL,  
+    materia VARCHAR(255) NOT NULL,  
+    PRIMARY KEY (id_materia)  
+);  
 
-load data infile 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/materias.csv'
-into table db_tp.materias
-fields terminated by ','
-lines terminated by '\n'
-ignore 1 rows;
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/materias.csv'  
+INTO TABLE db_tp.materias  
+FIELDS TERMINATED BY ','  
+LINES TERMINATED BY '\n'  
+IGNORE 1 ROWS;  
 
-select * from db_tp.materias;
+SELECT * FROM db_tp.materias;  

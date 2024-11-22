@@ -1,45 +1,45 @@
-create table alumnos(
-	id_alumno INT NOT NULL,
-    dni int,
-    nombre varchar(255),
-    apellido varchar(255),
-    email varchar(255),
-    trabaja bool,
-    experiencia_bdd_relacional bool,
-    experiencia_bdd_no_relacional bool,
-    ubicacion_id int,
-    mascotas bool,
+CREATE TABLE alumnos (  
+    id_alumno INT NOT NULL,  
+    dni INT,  
+    nombre VARCHAR(255),  
+    apellido VARCHAR(255),  
+    email VARCHAR(255),  
+    trabajo VARCHAR(255),  
+    experiencia_bdd_relacional BOOL,  
+    experiencia_bdd_no_relacional BOOL,  
+    ubicacion_id INT,  
+    mascotas BOOL,  
     recomendacion_multimedia TEXT,    
-    primary key (id_alumno),
-    FOREIGN KEY (ubicacion_id) REFERENCES localidades(id_localidad)
-);
+    PRIMARY KEY (id_alumno),  
+    FOREIGN KEY (ubicacion_id) REFERENCES localidades(id_localidad)  
+);  
 
--- CONSTRAINS
-ALTER TABLE alumnos 
-ADD constraint dni_unico UNIQUE (id_alumno);
+-- CONSTRAINTS  
+ALTER TABLE alumnos   
+ADD CONSTRAINT dni_unico UNIQUE (id_alumno);  
 
-ALTER TABLE alumnos
-ADD CONSTRAINT dni_positivo CHECK (dni > 0 or dni = null) ;
+ALTER TABLE alumnos  
+ADD CONSTRAINT dni_positivo CHECK (dni > 0 OR dni = NULL);   
 
-ALTER TABLE alumnos
-ALTER trabaja SET DEFAULT false,
-ALTER experiencia_bdd_relacional SET DEFAULT false,
-ALTER experiencia_bdd_no_relacional SET DEFAULT false,
-ALTER mascotas SET DEFAULT false; 
+ALTER TABLE alumnos  
+ALTER trabajo SET DEFAULT FALSE,  
+ALTER experiencia_bdd_relacional SET DEFAULT FALSE,  
+ALTER experiencia_bdd_no_relacional SET DEFAULT FALSE,  
+ALTER mascotas SET DEFAULT FALSE; 
 
-insert into db_tp.alumnos
-select a.id_alumno, 
-	a.dni,
-    a.nombre, 
-	a.apellido,
-    a.email,
-    a.trabaja, 
-    a.experiencia_bdd_relacional, 
-    a.experiencia_bdd_no_relacional,
-	loc.id_localidad, 
-    a.mascotas, 
-    a.recomendacion_multimedia
-from db_tp.datos_alumnos as a 
-left join db_tp.localidades as loc on a.ubicacion = loc.localidad;
+INSERT INTO db_tp.alumnos  
+SELECT a.id_alumno,  
+    a.dni,  
+    a.nombre,  
+    a.apellido,  
+    a.email,  
+    a.trabajo,  
+    a.experiencia_bdd_relacional,  
+    a.experiencia_bdd_no_relacional,  
+    loc.id_localidad,  
+    a.mascotas,  
+    a.recomendacion_multimedia  
+FROM db_tp.datos_alumnos AS a  
+LEFT JOIN db_tp.localidades AS loc ON a.ubicacion = loc.localidad;  
 
-select * from alumnos;
+SELECT * FROM alumnos;  

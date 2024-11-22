@@ -1,17 +1,15 @@
--- ejecutar por separado!!
+USE db_tp;
 
-use db_tp;
+CREATE TABLE hobbies (  
+    id_hobbie INT NOT NULL UNIQUE,  
+    hobbie VARCHAR(255) NOT NULL,  
+    PRIMARY KEY (id_hobbie)  
+);  
 
-create table hobbies (
-	id_hobbie INT NOT NULL UNIQUE,
-    hobbie varchar(255) not null,
-    primary key (id_hobbie) 
-);
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/hobbies.csv'  
+INTO TABLE db_tp.hobbies  
+FIELDS TERMINATED BY ','  
+LINES TERMINATED BY '\n'  
+IGNORE 1 ROWS;  
 
-load data infile 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/hobbies.csv'
-into table db_tp.hobbies
-fields terminated by ','
-lines terminated by '\n'
-ignore 1 rows;
-
-select * from db_tp.hobbies;
+SELECT * FROM db_tp.hobbies;  

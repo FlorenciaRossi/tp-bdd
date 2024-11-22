@@ -36,7 +36,7 @@ def call_LLM(json_data):
                     5. Nombre_Grupo (string)
                     6. Rol (string)
                     7. Materias (string): Agrega en todos la materia 'Bases de Datos'. Ten en cuenta que es la primer información que aparece en la columna descripción, las materias pueden estar abreviadas pero siempre se hace referencia a estas tres materias [Algoritmos 3, Bases de Datos, Seminario]. Si se nombra una materia más adelante en el texto no la agregues.
-                    8. Trabaja (boolean)
+                    8. Trabajo: (string): Agrega la actividad que realiza en el trabajo. Si no trabaja, vacío.
                     9. Experiencia_BDD_Relacional (boolean)
                     10. Experiencia_BDD_No_Relacional (boolean)
                     10. Ubicacion
@@ -53,7 +53,7 @@ def call_LLM(json_data):
                             "Nombre_Grupo":"DataMasters"
                             "Rol":"Organizador"
                             "Materias": "Bases de datos"
-                            "Trabaja": true
+                            "Trabajo": "Front-end"
                             "Experiencia_BDD": true
                             "Ubicacion": "San Martin"
                             "Hobbies": "Musica, Viajar, Videojuegos"
