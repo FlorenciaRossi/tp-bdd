@@ -1,6 +1,6 @@
 use db_tp;
 with alumnos_cantMaterias_exp as(
-select 
+select  -- traigo a los alumnos con la cantidad de materias que cursan y su experiencia
 	alumno_id,
     TRIM(CONCAT(COALESCE(a.nombre, ''), ' ', COALESCE(a.apellido, ''))) as alumno,
     count(alumno_id) as cant_materias,
@@ -12,7 +12,7 @@ select
 		when experiencia_bdd_no_relacional is true then 'SI'
         else 'NO'
 	end as experiencia_bd_no_relacional,
-    row_number() over(order by count(alumno_id) desc) as ranking
+    row_number() over(order by count(alumno_id) desc) as ranking -- rankea por la cantidad de materias que cursa
 from alumno_materia
 right join alumnos as a on alumno_id = a.id_alumno
 group by 1,2,4,5)

@@ -20,7 +20,7 @@ CREATE TABLE datos_alumnos (
     PRIMARY KEY (id_alumno) 
 );
 
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.1/Uploads/datos_alumnos_raw_data.csv'  
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 9.0/Uploads/datos_alumnos_raw_data.csv'  
 INTO TABLE db_tp.datos_alumnos  
 FIELDS TERMINATED BY ','  
 ENCLOSED BY '"'  
